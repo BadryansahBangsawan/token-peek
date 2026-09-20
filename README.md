@@ -22,7 +22,7 @@ Menu extra for macOS 14+. It lives on the **right** of the menu bar and does not
 - Shows `exp` / `nbf` / `iat` in the current timezone. Remaining time refreshes every second while a token is shown.
 - **Copy payload** and **Copy header**.
 
-This is an inspector, not a verifier. Treat `alg: none` and any other algorithm the same: **Signature not verified.**
+This is an inspector, not a verifier. Treat `alg: none` and any other algorithm the same: **Signature not verified.** Do not paste the token into jwt.io or other online decoders; Token Peek is meant to keep the JWT on this Mac.
 
 ## Requirements
 
